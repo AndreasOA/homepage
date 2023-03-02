@@ -64,7 +64,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             </div>
             <Popover.Panel
               className={`absolute right-0 z-10 w-11/12 p-4 ${
-                theme === "dark" ? "bg-tahiti-dark" : "bg-tahiti-light"
+                theme === "dark" ? "bg-slate-800" : "bg-white"
               } shadow-md rounded-md`}
             >
               {!isBlog ? (
@@ -76,9 +76,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:andreas.oberdammer+social@gmail.com")
-                      }
+                      onClick={() => router.push("/resume")}
                     >
                       Resume
                     </Button>
@@ -120,7 +118,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       </Popover>
       <div
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-tahiti-light"
+          theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
       >
         <h1
