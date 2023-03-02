@@ -52,11 +52,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     src={`/images/${
                       !open
                         ? theme === "dark"
-                          ? "menu-white.svg"
+                          ? "menuw.svg"
                           : "menu.svg"
                         : theme === "light"
                         ? "cancel.svg"
-                        : "cancel-white.svg"
+                        : "cancelw.svg"
                     }`}
                   ></img>
                 </Popover.Button>
