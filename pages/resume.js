@@ -79,6 +79,33 @@ const Resume = () => {
                     {resume.education.universityPara}
                   </p>
                 </div>
+                <div className="mt-2">
+                  <h2 className="text-lg">{resume.education.universityName2}</h2>
+                  <h3 className="text-sm opacity-75">
+                    {resume.education.universityDate2}
+                  </h3>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara2}
+                  </p>
+                </div>
+                <div className="mt-2">
+                  <h2 className="text-lg">{resume.education.universityName3}</h2>
+                  <h3 className="text-sm opacity-75">
+                    {resume.education.universityDate3}
+                  </h3>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara3}
+                  </p>
+                </div>
+                <div className="mt-2">
+                  <h2 className="text-lg">{resume.education.universityName4}</h2>
+                  <h3 className="text-sm opacity-75">
+                    {resume.education.universityDate4}
+                  </h3>
+                  <p className="text-sm mt-2 opacity-50">
+                    {resume.education.universityPara4}
+                  </p>
+                </div>
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>

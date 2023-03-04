@@ -663,7 +663,7 @@ const Edit = () => {
             </div>
             <hr className="my-10"></hr>
             <div className="mt-10">
-              <h1>Education</h1>
+              <h1>Education 1</h1>
               <div className="flex items-center mt-5">
                 <label className="w-1/5 text-lg opacity-50">Name</label>
                 <input
@@ -716,6 +716,200 @@ const Edit = () => {
                         education: {
                           ...data.resume.education,
                           universityPara: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+            </div>
+            <hr className="my-10"></hr>
+            <div className="mt-10">
+              <h1>Education 2</h1>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Name</label>
+                <input
+                  value={data.resume.education.universityName2}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityName2: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Dates</label>
+                <input
+                  value={data.resume.education.universityDate2}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityDate2: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Detail</label>
+                <input
+                  value={data.resume.education.universityPara2}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityPara2: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+            </div>
+
+            <hr className="my-10"></hr>
+            <div className="mt-10">
+              <h1>Education 3</h1>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Name</label>
+                <input
+                  value={data.resume.education.universityName3}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityName3: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Dates</label>
+                <input
+                  value={data.resume.education.universityDate3}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityDate3: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Detail</label>
+                <input
+                  value={data.resume.education.universityPara3}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityPara3: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+            </div>
+
+            <hr className="my-10"></hr>
+            <div className="mt-10">
+              <h1>Education 4</h1>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Name</label>
+                <input
+                  value={data.resume.education.universityName4}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityName4: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Dates</label>
+                <input
+                  value={data.resume.education.universityDate4}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityDate4: e.target.value,
+                        },
+                      },
+                    })
+                  }
+                  className="w-4/5 ml-10 p-2 rounded-md shadow-lg border-2"
+                  type="text"
+                ></input>
+              </div>
+              <div className="flex items-center mt-5">
+                <label className="w-1/5 text-lg opacity-50">Detail</label>
+                <input
+                  value={data.resume.education.universityPara4}
+                  onChange={(e) =>
+                    setData({
+                      ...data,
+                      resume: {
+                        ...data.resume,
+                        education: {
+                          ...data.resume.education,
+                          universityPara4: e.target.value,
                         },
                       },
                     })

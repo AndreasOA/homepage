@@ -22,11 +22,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       <div className="mt-10 flex items-center justify-between p-2 laptop:p-0">
         <h1
           onClick={() => router.push("/")}
-          className="flex font-medium p-2 laptop:p-0 link mob:flex-nowrap"
+          className="font-medium p-2 laptop:p-0 link"
         >
           {name}
         </h1>
-        <div className="flex flex-row flex-wrap grid grid-cols-4">
+        <div className="grid grid-cols-4">
           <Button onClick={handleWorkScroll}>Work</Button>
           <Button onClick={handleAboutScroll}>About</Button>
           {showBlog && (
